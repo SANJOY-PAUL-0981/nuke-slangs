@@ -1,7 +1,7 @@
 {
   "name": "nuke-slangs",
-  "version": "1.0.0",
-  "description": "A simple JavaScript utility to detect and clean slang words from text.",
+  "version": "1.0.1",
+  "description": "A simple JavaScript utility to detect and clean slang words from text mainly focused on English and Indian Origin Slangs.",
   "homepage": "https://github.com/SANJOY-PAUL-0981/nuke-slangs#readme",
   "bugs": {
     "url": "https://github.com/SANJOY-PAUL-0981/nuke-slangs/issues"
