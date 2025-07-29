@@ -1,7 +1,7 @@
 {
   "name": "nuke-slangs",
   "version": "1.0.0",
-  "description": "��#\u0000 \u0000n\u0000u\u0000k\u0000e\u0000-\u0000s\u0000l\u0000a\u0000n\u0000g\u0000s\u0000\r\u0000 \u0000",
+  "description": "A simple JavaScript utility to detect and clean slang words from text.",
   "homepage": "https://github.com/SANJOY-PAUL-0981/nuke-slangs#readme",
   "bugs": {
     "url": "https://github.com/SANJOY-PAUL-0981/nuke-slangs/issues"
@@ -11,13 +11,14 @@
     "url": "git+https://github.com/SANJOY-PAUL-0981/nuke-slangs.git"
   },
   "license": "ISC",
-  "author": "",
+  "author": "Sanjoy Paul",
   "type": "commonjs",
   "main": "index.js",
   "scripts": {
     "test": "jest"
   },
+  "keywords": ["slang", "text-cleaning", "profanity-filter", "moderation"],
   "devDependencies": {
-    "jest": "^30.0.5"
+    "jest": "^29.7.0"
   }
 }

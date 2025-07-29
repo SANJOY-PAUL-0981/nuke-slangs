@@ -36,12 +36,22 @@ const isSlang = (text) => {
 }
 
 const makeClean = (text) => {
+    let rawInp = text
     const input = text.toLowerCase();
-    console.log(input)
-}
 
-const text = "stfu BitCh"
-makeClean(text)
+    for (let i = 0; i < slangData.length; i++) {
+        const pattern = new RegExp(`\\b${slangData[i]}\\b`, "gi");
+
+        const match = pattern.test(input)
+
+        if (match) {
+            rawInp = rawInp.replace(pattern, (match) => {
+                return "*".repeat(match.length)
+            })
+        }
+    }
+    return rawInp.replace(/\s+/g, ' ').trim();
+}
 
 module.exports = {
     isSlang,
